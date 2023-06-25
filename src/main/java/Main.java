@@ -6,9 +6,7 @@ public class Main {
         System.out.println(crudObjectActions.getUsers());
         System.out.println(crudObjectActions.getUserById(3));
         System.out.println(crudObjectActions.getUserByUsername("daria_w"));
-
         crudObjectActions.allCommentsToTheLastPost(1);
-
         crudObjectActions.getOpenTasksForUser(1);
     }
 }
