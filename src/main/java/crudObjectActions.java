@@ -8,7 +8,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.Optional;
 
-public class User {
+public class crudObjectActions {
     private static final String BASE_URL = "https://jsonplaceholder.typicode.com/users";
 
     private static final Gson gson = new Gson();
@@ -223,7 +223,7 @@ public class User {
             e.printStackTrace();
         }
     }
-    
+
     public static void getOpenTasksForUser(int userId) {
         try {
             URL url = new URL(BASE_URL + "/" + userId + "/todos");
