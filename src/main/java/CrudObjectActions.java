@@ -8,7 +8,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.Optional;
 
-public class crudObjectActions {
+public class CrudObjectActions {
     private static final String BASE_URL = "https://jsonplaceholder.typicode.com/users";
 
     private static final Gson gson = new Gson();
